@@ -57,6 +57,6 @@
     },
     "dependencies": {
         "escape-string-regexp": "^1.0.5",
-        "reformat-markdown-table": "^1.1.0"
+        "reformat-markdown-table-cn": "^1.2.0"
     }
 }

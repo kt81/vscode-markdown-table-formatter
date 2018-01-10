@@ -5,7 +5,7 @@ import * as vscode from 'vscode';
 import { workspace } from 'vscode';
 import extractTables from './utils/extract-tables'
 
-import { reformat } from 'reformat-markdown-table'
+import { reformat } from 'reformat-markdown-table-cn'
 import * as escapeStringRegexp from 'escape-string-regexp'
 
 let config = workspace.getConfiguration('markdownTableFormatter');

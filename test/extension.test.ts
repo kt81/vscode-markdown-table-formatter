@@ -15,7 +15,16 @@ import * as myExtension from '../src/extension';
 suite("Extension Tests", () => {
 
   // Defines a Mocha unit test
-  test("Something 1", () => {
+  test("Half/Fullwidth characters test", () => {
+    // var input = `
+    // |h1|h2|h3|
+    // |coffee|Café au lait|烏龍茶|
+    // `;
+    // var expect = `
+    // | h1     | h2           | h3     |
+    // | coffee | Café au lait | 烏龍茶 |
+    // `;
+
     assert.equal(-1, [1, 2, 3].indexOf(5));
     assert.equal(-1, [1, 2, 3].indexOf(0));
   });
